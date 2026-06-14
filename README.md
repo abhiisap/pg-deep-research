@@ -65,7 +65,7 @@ python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 
 cp .env.example .env        # add GROQ_API_KEY and TAVILY_API_KEY (both free)
-python run.py               # runs the agent, prints and writes results/RESULTS_live.md
+python run.py               # runs the agent, prints and writes results/RESULTS.md
 ```
 
 On the free tier the run pauses between steps to stay under the per-minute token

@@ -26,6 +26,6 @@ if __name__ == "__main__":
     print("FINAL REPORT")
     print("=" * 70 + "\n")
     print(report)
-    with open("results/RESULTS_live.md", "w", encoding="utf-8") as f:
+    with open("results/RESULTS.md", "w", encoding="utf-8") as f:
         f.write(report)
-    print("\n\n[done] Live report saved to results/RESULTS_live.md")
+    print("\n\n[done] Live report saved to results/RESULTS.md")
